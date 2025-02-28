@@ -31,8 +31,8 @@ print(type(age))
 
 
 number=8
-number2=15
-number3=23
+number2=16
+number3=24
 
 
 print((number + number2 + number3) /3)
