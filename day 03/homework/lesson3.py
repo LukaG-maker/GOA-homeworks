@@ -22,11 +22,11 @@ print(name)
 
 #ეხლა მოდი შევქმნათ 5 ცვლადი სადაც შევინახავთ რიცხვებს. და მერე დავპრინტოთ მათი ჯამი!
 
-num1=2
-num2=4
-num3=5
-num4=7
-num5=10
+num1=4
+num2=7
+num3=8
+num4=10
+num5=4
 sum=num1+num2+num3+num4+num5
 print(sum)
 
