@@ -1,20 +1,7 @@
-#Name = "nika"
-# naMe= "luka"
-# NAME= "data"
-# naME= "vano"
-# name= "demetre"
-# naME= "jan"
-# name="giorgi"
-# 
-# 6 იმიტომ რომ ყველანი ცვლადები არიან
-# 
-# 
-# 
-name_name="luka"
-name_1="demetre"
-name_2="giorgi"
-name_3="vano"
-my_favorite_car="lamborghini"
-my_favorite="luka"
+num = int(input("enter a number"))
 
+if num >= 5 and num <= 10:
+    print("number is within 5-10")
+else:
+    print("number is not within 5-10")
 

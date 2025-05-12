@@ -1,0 +1,1 @@
+#python functions: Append, Remove, Pop, Clear, Count, Extend, Insert, Reverse.

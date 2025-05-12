@@ -1,5 +1,10 @@
-my_username= "luka"
+names = []
 
-user_nameis = input("enter your name : ")
+for i in range(5):
+    name = input("Please enter a name: ")
+    names.append(name)
 
-print(my_username == user_nameis)
+
+for name in names:
+    if len(name) > 5:
+        print(name)
