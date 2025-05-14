@@ -1,0 +1,11 @@
+.styled-list{
+    list-style-type: circle;
+    padding: 40px;
+    color: aqua;
+    font: size 19px;
+    background-image: url("./download\ \(2\).webp");
+}
+
+.styled-list{
+    margin: 40px;
+}

@@ -1,0 +1,63 @@
+.car-card{
+
+border: 1px solid black;
+box-shadow: 10px 11p 12px;
+border-radius: 8px;
+
+
+background-image: url("./download\ \(2\).webp");
+background-size: cover;
+background-position: center;
+overflow: hidden;
+}
+
+.text-selection{
+    text-align: center;
+    color: aqua;
+    padding: 60px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,354,255);
+}
+.car-card2{
+
+border: 1px solid black;
+box-shadow: 10px 11p 12px;
+border-radius: 8px;
+
+
+background-image: url("./download\ \(1\).jpg");
+background-size: cover;
+background-position: center;
+overflow: hidden;
+}
+
+.text-selection{
+    text-align: center;
+    color: aqua;
+    padding: 60px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,354,255);
+}
+.car-card3{
+
+border: 1px solid black;
+box-shadow: 10px 11p 12px;
+border-radius: 8px;
+
+
+background-image: url("./download\ \(3\).webp");
+background-size: cover;
+background-position: center;
+overflow: hidden;
+}
+
+.text-selection{
+    text-align: center;
+    color: aqua;
+    padding: 60px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,354,255);
+}
