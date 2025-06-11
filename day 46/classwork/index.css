@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Karla;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(204, 43%, 93%);
+}
+
+main {
+    width: 640px;
+    height: 480px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+}
+
+section {
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Section top */
+
+#top {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    background-color: white;
+}
+
+#top h2 {
+    font-size: 24px;
+    color: hsl(179, 62%, 43%);
+}
+
+#sub-header {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(71, 73%, 54%);
+}
+
+#top #description {
+    color: hsl(218, 22%, 67%);
+}
+
+/* Section left */
+
+#left {
+    background-color: #2AB3B1;
+}
+
+#left h2 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+#price span {
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    margin-right: 7px;
+}
+
+#price {
+    color: hsla(0, 0%, 100%, 0.612);
+}
+
+#left #description {
+    color: white;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    padding: 14px 0;
+    font-size: 17px;
+}
+
+#right {
+    background-color: #4BBFBC;
+    color: white;
+}
+
+#right h2 {
+    font-size: 18px;
+}
+
+#right p {
+    color: rgba(255, 255, 255, 0.755);
+    line-height: 1.5;
+}

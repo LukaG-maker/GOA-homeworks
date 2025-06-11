@@ -1,0 +1,27 @@
+body{
+     background-color: rgb(45, 2, 45); 
+     margin: 0px; 
+     padding: 0px;
+     width: 100vh;
+     display: flex;
+     font-family: sans-serif;
+    }
+
+.div-1{
+     background-color: rgb(75, 4, 75);
+     width: 600px;
+     color:rgba(255, 255, 255, 0.512);
+     height: 400px;
+     border: 1px;
+     position:absolute;
+     left: 10%;
+     top: 30%;
+}
+img{
+     position:absolute;
+     left: 100%;
+     top: 0%;
+     border: 1px;
+     width: 600px;
+     height: 400px;
+}
