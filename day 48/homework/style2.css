@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: rgb(200, 200, 200);
+}
+
+main{
+    width:736px;
+    height: 512px;
+    display: flex;
+    border-radius: 32px;
+    background-color: white;
+}
+
+.s-1{
+    width:50%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 32px;
+    background: linear-gradient(180deg, #7755FF, #6943FF, #593DF9, #2F2CE9);
+}
+
+.s-1 h1{
+    font-size:24px;
+    color: #CAC9FF;
+}
+
+.div-1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background:  linear-gradient(180deg, #7755FF, #6943FF, #593DF9, #2F2CE9);
+}
+
+.div-1 h2{
+    font-size: 72px;
+    color: white;
+}
+
+.div-1 p{
+    font-size: 18px;
+    opacity: 52%;
+    color: #CAC9FF;
+}
+
+.div-2{
+    width: 260px;
+    height: 134px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.div-2 h2{
+    font-size: 32px;
+    color: white;
+}
+
+.div-2 p{
+    font-size: 18px;
+    color: #CAC9FF;
+}
+
+.s-2{
+    width:50%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.div-3{
+    width: 288px;
+    text-align: left;
+}
+
+
+.div-3 h2{
+    font-size: 24px;
+    color: #303B59;
+
+}
+
+.div-container{
+    width: 288px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.c1{
+    width: 288px;
+    height: 56px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-n1{
+    display: flex;
+    align-items: center;
+    width:100px;
+    justify-content: space-between;
+    
+}
+
+.div-n1 p{
+    font-size: 18px;
+    color: #FF5555;
+}
+
+.div-n2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-n3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.div-n3 p{
+    font-size: 18px;
+    color: #FFB21E;
+}
+
+.div-n4{
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.div-n5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+}  
+
+.div-n5 p{
+    font-size: 18px;
+    color:  #00BB8F ;
+}
+
+.div-n6{
+    display: flex;
+    align-items: center;
+}
+
+.div-n7{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+}
+
+.div-n7 p{
+    font-size: 18px;
+    color: #1125D6;
+}
+
+.div-n8{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+button{
+    width:288px;
+    height: 56px;
+    border-radius: 128px;
+    border: none;
+    font-size: 18px;
+    background-color: #303B59;
+    color:white;
+}
+
+
+
+
