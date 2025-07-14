@@ -3,4 +3,4 @@ let button = document.getElementById("mybutton");
 function changetext(){
     heading.textContent = "hello world";
 }
-button.addEventListener("click",changetext);
+button.addEventListener("click",changetext)
