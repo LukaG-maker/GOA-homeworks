@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="container" role="main">
+      <div class="head">
+        <div>
+          <h1 class="title">Extensions List</h1>
+          <p class="subtitle">quickly view and control installed extensions </p>
+        </div>
+
+        <div class="control">
+          <div class="filter-btns" role="tablist" aria-label="filers">
+            <button class="filers-btn Active" data-filter="All">All</button>
+            <button class="filers-btn" data-filter="active">Active</button>
+            <button class="filers-btn" data-filter="inactive">Inactive</button>
+          </div>
+        </div>
+      </div>
+
+   <div class="card">
+    <div class="icon"></div>
+    <div class="meta">
+      <p class="name">devLens</p>
+      <p class="desc">Instantly analyze and copy CSS from any webpage element.</p>
+    </div>
+    <div class="acctions">
+      <button class="Remove">Remove</button>
+      <div class="toggle"><div class="knob"></div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="icon"></div>
+    <div class="meta">
+      <p class="name">StyleSpy</p>
+      <p class="desc">Instantly analyze and copy CSS from any webpage element.</p>
+    </div>
+    <div class="acctions">
+      <button class="Remove">Remove</button>
+      <div class="toggle"><div class="knob"></div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="icon"></div>
+    <div class="meta">
+      <p class="name">SpeedBoost</p>
+      <p class="desc">  Optimizes browser resource usage to accelerate page loading.</p>
+    </div>
+    <div class="acctions">
+      <button class="Remove">Remove</button>
+      <div class="toggle"><div class="knob"></div></div>
+    </div>
+  </div>
+ 
+    <div class="footer" id="footer">image demo - 3 extensions</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
