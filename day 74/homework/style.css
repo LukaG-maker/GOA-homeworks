@@ -1,137 +1,93 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #0f172a, #1e293b);
-  color: #fff;
-  margin: 0;
-  padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #0d1117;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
 }
-
-.container {
-  max-width: 900px;
-  margin: auto;
-}
-
-
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-.title {
-  margin: 0;
-  font-size: 28px;
+.header input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
 }
-
-.subtitle {
-  margin: 5px 0 0;
-  font-size: 14px;
-  color: #94a3b8;
+.filters {
+    margin: 20px 0;
 }
-
-.filter-btns {
-  display: flex;
-  gap: 10px;
+.filters button {
+    background-color: #1f2937;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
 }
-
-.filter-btn {
-  padding: 6px 14px;
-  border: none;
-  background: #334155;
-  color: #fff;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background 0.2s;
+.filters button.active {
+    background-color: #2563eb;
 }
-
-.filter-btn:hover {
-  background: #475569;
+.extensions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
 }
-
-.filter-btn.active {
-  background: #3b82f6;
-}
-
-.grid {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
 .card {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #1e293b;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    background-color: #1f2937;
+    border-radius: 8px;
+    padding: 15px;
+    position: relative;
 }
-
-.card .meta {
-  flex: 1;
-  margin-left: 15px;
+.card h3 {
+    margin-top: 0;
 }
-
-.card .name {
-  font-weight: bold;
-  font-size: 16px;
-  margin: 0;
+.card p {
+    font-size: 14px;
+    color: #ccc;
 }
-
-.card .desc {
-  font-size: 13px;
-  color: #94a3b8;
-  margin: 4px 0 0;
+.card button.remove {
+    background: #dc2626;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
 }
-
-.remove {
-  background: #ef4444;
-  color: #fff;
-  border: none;
-  padding: 5px 12px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-right: 10px;
-}
-
-.remove:hover {
-  background: #dc2626;
-}
-
 .toggle {
-  width: 40px;
-  height: 20px;
-  background: #475569;
-  border-radius: 20px;
-  position: relative;
-  cursor: pointer;
-  transition: background 0.3s;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
 }
-
-.toggle.on {
-  background: #22c55e;
+.toggle input {
+    display: none;
 }
-
-.knob {
-  width: 16px;
-  height: 16px;
-  background: white;
-  border-radius: 50%;
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  transition: left 0.3s;
+.toggle label {
+    width: 40px;
+    height: 20px;
+    background: #555;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
 }
-
-.toggle.on .knob {
-  left: 22px;
+.toggle label::after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: 0.3s;
 }
-
-.footer {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 12px;
-  color: #94a3b8;
+.toggle input:checked + label {
+    background: #10b981;
+}
+.toggle input:checked + label::after {
+    left: 22px;
 }
