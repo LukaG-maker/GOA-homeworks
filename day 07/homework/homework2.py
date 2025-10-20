@@ -1,7 +1,10 @@
-num1 = int(input("enter a number :"))
-num2 = int(input("enter a number :"))
+def sum(1st):
+    res = 0
+    for 1 in 1st:
+        if 1 % 2 ==0:
+            res += 1
+    return res
 
-if num1 == num2:
-    print("true")
-else:
-    print("false")
+print(sum([1, 2, 3, 4, 5, 6, 7]))
+            
+        

@@ -1,10 +1,17 @@
-num1 = int(input("please enter the number: "))
-num2 = int(input("please enter the number: "))
-print (num1 + num2)
-print (num1 - num2)
-print (num1 / num2)
-print (num1 * num2)
-print (num1 > num2)
-print (num1<num2)
-print (num1>=num2)
-print(num1>=num2)
+def manual_islower(str):
+    if str.lower() == str:
+        return True
+    else:
+        return False
+    
+def manual_isupper(str):
+    if str.upper() == str:
+        return True
+    else:
+        return False
+    
+#islower ეს ამოწმებს სტრინგში uppercase თუ არის და ყოველთვის აბრუნებს boolean
+#isupper ეს ამოწმებს სტრინგში lowercase თუ არის და ყოველთვის აბრუნებს ბოოლიანს
+  
+
+    

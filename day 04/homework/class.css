@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background: #0047ab;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(25px, 25px);
+}
+
+.line {
+  position: absolute;
+  background: white;
+}
+
+.vertical {
+  width: 2px;
+  height: 100vh;
+}
+
+.horizontal {
+  width: 100vw;
+  height: 2px;
+}

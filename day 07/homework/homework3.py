@@ -1,10 +1,10 @@
-grade = int(input("enter your grade :"))
-
-if grade >= 90:
-    print("Grade A")
-if grade >= 70:
-    print("Grade B")
-if grade >= 50:
-    print("Grade C")
-else:
-    print("Grade F")
+def work(text, a):
+    count = 0 
+    for i in text:
+        if i == a.lower() or i == a.upper():
+            count += 1
+    return count
+        
+def example(one, two):
+    res = []
+    for i in list2
