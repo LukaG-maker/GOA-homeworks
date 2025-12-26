@@ -1,0 +1,10 @@
+body {
+  background-image: url('');
+  background-size: 200px 200px;
+  background-repeat: repeat;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

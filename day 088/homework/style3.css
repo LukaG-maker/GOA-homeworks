@@ -1,0 +1,26 @@
+body {
+    background: #3566ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.ball {
+    width: 45px;
+    height: 45px;
+    background: #f5c37b;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.zigzag-ball {
+    animation: moveZig 3s linear infinite;
+    offset-path: path("M20 20 L100 80 L40 140 L180 200 L100 260");
+}
+
+@keyframes moveZig {
+    from { offset-distance: 0%; }
+    to   { offset-distance: 100%; }
+}

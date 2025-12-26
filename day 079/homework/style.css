@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url('bg.jpg');
+  background-repeat: repeat-x; 
+  background-size: contain; 
+  background-position: center;
+  background-color: #eaeaea;
+  height: 100vh;
+  margin: 0;
+}

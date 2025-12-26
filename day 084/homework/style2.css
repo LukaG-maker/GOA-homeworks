@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* კუბი */
+.square {
+  width: 150px;
+  height: 150px;
+  background: #ffd000;
+  border-radius: 25px;
+  animation: move 5s infinite ease-in-out;
+  opacity: 0.9;
+}
+
+/* მოძრაობის ანიმაცია */
+@keyframes move {
+  0% {
+    transform: translateX(-200px) rotate(-40deg) scale(0.8);
+    background: #6fb3d8;
+  }
+  25% {
+    transform: translateX(-100px) rotate(-20deg) scale(0.9);
+    background: #c1d85d;
+  }
+  50% {
+    transform: translateX(0) rotate(0deg) scale(1);
+    background: #ffe23b;
+  }
+  75% {
+    transform: translateX(100px) rotate(20deg) scale(1.05);
+    background: #ffd200;
+  }
+  100% {
+    transform: translateX(200px) rotate(40deg) scale(1.1);
+    background: #ffcf00;
+  }
+}

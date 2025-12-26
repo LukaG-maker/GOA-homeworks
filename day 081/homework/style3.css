@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.btn {
+  border: none;
+  padding: 20px 40px;
+  font-size: 22px;
+}
+
+.btn:hover {
+  transform: scale(2);
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: 8px;
+    font-family: "Figrtree", sans-serif;
+    margin-top: 10px;
+}
+
+ body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+ }
+
+
+.main{
+    width: 380px;
+    height: 520px;
+    background: #fff;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#img-1{
+    border-radius: 15px;
+    width: 370px;
+    margin-left: 5px;
+}
+
+#p-1{
+    color: black;
+}
+
+#p-2{
+    color: hsl(0, 0%, 42%);
+}
+
+h2{
+    display: inline;
+    font-size: 18px;
+    background: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+h1{
+    font-size: 24px;
+}

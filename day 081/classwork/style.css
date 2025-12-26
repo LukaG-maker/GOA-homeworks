@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f0f0;
+}
+
+/* ჩვეულებრივ მდგომარეობაში 45 გრადუსით მობრუნებული */
+.box {
+  width: 200px;
+  height: 200px;
+  background: tomato;
+  transform: rotate(45deg);
+  transition: transform 0.5s ease;
+}
+
+/* hover-ზე ზომის განახევრება */
+.box:hover {
+  transform: rotate(45deg) scale(0.5);
+}

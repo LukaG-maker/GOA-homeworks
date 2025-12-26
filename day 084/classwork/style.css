@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #fff;
+}
+
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #2196f3;
+  margin-left: 60px;
+  transition: transform 5s;
+  transform: translateX(0) scale(1);
+}
+
+.circle:hover {
+  transform: translateX(600px) scale(3);
+  background: #42a5f5;
+}

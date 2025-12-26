@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: rgb(72, 72, 255);
+}
+
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgb(255, 186, 96);
+    transition-duration: 5s;
+    transform: translateX(0);
+}
+
+.circle:active {
+    transform: translateX(600px);
+    background: rgb(255, 186, 96);
+}

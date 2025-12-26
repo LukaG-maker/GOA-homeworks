@@ -1,0 +1,26 @@
+body {
+    background: #3566ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.ball {
+    width: 45px;
+    height: 45px;
+    background: #f5c37b;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.triangle-ball {
+    animation: moveTri 4s linear infinite;
+    offset-path: path("M30 30 L230 30 L130 230 Z");
+}
+
+@keyframes moveTri {
+    from { offset-distance: 0%; }
+    to   { offset-distance: 100%; }
+}

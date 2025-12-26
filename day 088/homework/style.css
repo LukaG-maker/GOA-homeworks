@@ -1,0 +1,39 @@
+body {
+    background: #3566ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.ball {
+    width: 45px;
+    height: 45px;
+    background: #f5c37b;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle-path {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px dashed rgba(255,255,255,0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-ball {
+    top: 50%;
+    left: 50%;
+    transform-origin: -100px 0;
+    animation: circleMove 4s linear infinite;
+}
+
+@keyframes circleMove {
+    from { transform: translate(-50%, -50%) rotate(0deg); }
+    to   { transform: translate(-50%, -50%) rotate(360deg); }
+}
